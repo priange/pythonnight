@@ -1,14 +1,14 @@
 # define a function that accepts a string as input and uses 
 # the for loop to iterate through the string and counts the vowels.
-# def accepts(names):
-#  count=0
-#  vowels=('a','e','i','o','u')
-#  for i in names:
-#   for v in vowels:
-#    if i==v:
-#     count+=1
-#     return count
-#    print(accepts('Beautiful'))
+def accepts(names):
+ count=0
+ vowels=('a','e','i','o','u')
+ for i in names:
+  for v in vowels:
+   if i==v:
+    count+=1
+    return count
+   print(accepts('Beautiful'))
 
 
 # Write a Python function that takes two arguments (a and b) 
@@ -28,8 +28,9 @@ for i in feed:
 def written(name):
  for i in name:
   return name[::-1]
-reap=written('Omara')
-print(reap)
+  reap=written('Omara')
+  return reap
+print(written)
 
 # Write a Python function that takes a list of integers as 
 # input and returns the sum of all the integers in the list.
@@ -46,14 +47,10 @@ print(legal(output))
 
 def put_in(numbers):
  sum=0
-#  empty=[]
  for i in numbers:
   if i%2!=0:
    sum+=i
-   empty.append(i)
-  else:
-   returnh
-   return empty
+   return sum
   print(put_in([2,24,17,1874]))
   
 # Write a Python function that takes a list of integers as input
@@ -73,8 +70,6 @@ print (output)
 #  and returns a new list with all the strings capitalized.
 
 def typed(strings):
-   formed=strings.capitalise()
-  
+   return strings.titleCase()
 output = typed(['wind','sand','soil'])
-vary=output.capitalise
-print (typed.string(['Joan','Jacky','Jack']))
+print (output)
